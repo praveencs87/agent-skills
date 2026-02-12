@@ -1,0 +1,1 @@
+{"name":"log-analyzer","version":"1.0.0","description":"Analyze log files — find errors, patterns, and anomalies","tools":["cmd.run","fs.read"],"permissions":{"required":["exec","filesystem.read"]},"entrypoint":"prompt.md","state":"approved"}

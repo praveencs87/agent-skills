@@ -1,0 +1,15 @@
+{
+    "name": "create-note",
+    "version": "1.0.0",
+    "description": "Creates formatted notes and saves them as markdown files",
+    "tools": [
+        "fs.write"
+    ],
+    "permissions": {
+        "required": [
+            "filesystem.write"
+        ]
+    },
+    "entrypoint": "prompt.md",
+    "state": "approved"
+}

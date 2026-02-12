@@ -1,0 +1,16 @@
+{
+    "name": "web-search",
+    "version": "1.0.0",
+    "description": "Search the web using curl and extract relevant information",
+    "tools": [
+        "cmd.run"
+    ],
+    "permissions": {
+        "required": [
+            "exec",
+            "network"
+        ]
+    },
+    "entrypoint": "prompt.md",
+    "state": "approved"
+}

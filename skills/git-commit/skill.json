@@ -1,0 +1,17 @@
+{
+    "name": "git-commit",
+    "version": "1.0.0",
+    "description": "Stages changes and creates a git commit with a meaningful message",
+    "tools": [
+        "cmd.run",
+        "git.status",
+        "git.diff"
+    ],
+    "permissions": {
+        "required": [
+            "exec"
+        ]
+    },
+    "entrypoint": "prompt.md",
+    "state": "approved"
+}

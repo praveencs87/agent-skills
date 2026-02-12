@@ -1,0 +1,373 @@
+{
+    "version": 1,
+    "name": "Agent Skill Hub",
+    "description": "Official skill registry for @praveencs/agent",
+    "homepage": "https://github.com/praveencs87/agent-skills",
+    "updated": "2026-02-12",
+    "categories": [
+        "Coding & IDEs",
+        "Git & Version Control",
+        "DevOps & Cloud",
+        "Communication",
+        "Productivity",
+        "Search & Research",
+        "CLI Utilities",
+        "Data & Analytics",
+        "Browser & Automation",
+        "Security"
+    ],
+    "skills": [
+        {
+            "name": "open-vscode",
+            "version": "1.0.0",
+            "description": "Opens VS Code in the current or specified directory",
+            "author": "praveencs",
+            "category": "Coding & IDEs",
+            "tags": [
+                "editor",
+                "vscode",
+                "desktop",
+                "ide"
+            ],
+            "path": "skills/open-vscode",
+            "tools": [
+                "cmd.run"
+            ],
+            "permissions": [
+                "exec"
+            ]
+        },
+        {
+            "name": "send-email",
+            "version": "1.0.0",
+            "description": "Sends emails using nodemailer via SMTP",
+            "author": "praveencs",
+            "category": "Communication",
+            "tags": [
+                "email",
+                "smtp",
+                "notification"
+            ],
+            "path": "skills/send-email",
+            "tools": [
+                "cmd.run"
+            ],
+            "permissions": [
+                "exec",
+                "network"
+            ]
+        },
+        {
+            "name": "git-commit",
+            "version": "1.0.0",
+            "description": "Stages changes and creates conventional git commits with meaningful messages",
+            "author": "praveencs",
+            "category": "Git & Version Control",
+            "tags": [
+                "git",
+                "commit",
+                "conventional-commits",
+                "version-control"
+            ],
+            "path": "skills/git-commit",
+            "tools": [
+                "cmd.run",
+                "git.status",
+                "git.diff"
+            ],
+            "permissions": [
+                "exec"
+            ]
+        },
+        {
+            "name": "docker-deploy",
+            "version": "1.0.0",
+            "description": "Build, run, and manage Docker containers and docker-compose stacks",
+            "author": "praveencs",
+            "category": "DevOps & Cloud",
+            "tags": [
+                "docker",
+                "deploy",
+                "devops",
+                "containers",
+                "compose"
+            ],
+            "path": "skills/docker-deploy",
+            "tools": [
+                "cmd.run"
+            ],
+            "permissions": [
+                "exec",
+                "network"
+            ]
+        },
+        {
+            "name": "create-note",
+            "version": "1.0.0",
+            "description": "Creates formatted markdown notes and saves them as files",
+            "author": "praveencs",
+            "category": "Productivity",
+            "tags": [
+                "notes",
+                "writing",
+                "markdown",
+                "productivity"
+            ],
+            "path": "skills/create-note",
+            "tools": [
+                "fs.write"
+            ],
+            "permissions": [
+                "filesystem.write"
+            ]
+        },
+        {
+            "name": "file-organizer",
+            "version": "1.0.0",
+            "description": "Organizes files in a directory by type, date, or custom rules",
+            "author": "praveencs",
+            "category": "CLI Utilities",
+            "tags": [
+                "files",
+                "organize",
+                "cleanup",
+                "filesystem"
+            ],
+            "path": "skills/file-organizer",
+            "tools": [
+                "cmd.run",
+                "fs.read",
+                "fs.write"
+            ],
+            "permissions": [
+                "exec",
+                "filesystem.read",
+                "filesystem.write"
+            ]
+        },
+        {
+            "name": "web-search",
+            "version": "1.0.0",
+            "description": "Search the web using curl and extract relevant information",
+            "author": "praveencs",
+            "category": "Search & Research",
+            "tags": [
+                "search",
+                "web",
+                "curl",
+                "research"
+            ],
+            "path": "skills/web-search",
+            "tools": [
+                "cmd.run"
+            ],
+            "permissions": [
+                "exec",
+                "network"
+            ]
+        },
+        {
+            "name": "project-scaffold",
+            "version": "1.0.0",
+            "description": "Scaffold new projects (Node.js, Python, React, Next.js, Express) with best practices",
+            "author": "praveencs",
+            "category": "Coding & IDEs",
+            "tags": [
+                "scaffold",
+                "boilerplate",
+                "template",
+                "project",
+                "create"
+            ],
+            "path": "skills/project-scaffold",
+            "tools": [
+                "cmd.run",
+                "fs.write"
+            ],
+            "permissions": [
+                "exec",
+                "filesystem.write"
+            ]
+        },
+        {
+            "name": "system-monitor",
+            "version": "1.0.0",
+            "description": "Monitor system resources — CPU, memory, disk, and running processes",
+            "author": "praveencs",
+            "category": "DevOps & Cloud",
+            "tags": [
+                "system",
+                "monitor",
+                "cpu",
+                "memory",
+                "disk",
+                "health"
+            ],
+            "path": "skills/system-monitor",
+            "tools": [
+                "cmd.run"
+            ],
+            "permissions": [
+                "exec"
+            ]
+        },
+        {
+            "name": "npm-publish",
+            "version": "1.0.0",
+            "description": "Prepare and publish npm packages with version bumping and validation",
+            "author": "praveencs",
+            "category": "Coding & IDEs",
+            "tags": [
+                "npm",
+                "publish",
+                "package",
+                "release"
+            ],
+            "path": "skills/npm-publish",
+            "tools": [
+                "cmd.run",
+                "fs.read",
+                "fs.write"
+            ],
+            "permissions": [
+                "exec",
+                "network",
+                "filesystem.read",
+                "filesystem.write"
+            ]
+        },
+        {
+            "name": "code-review",
+            "version": "1.0.0",
+            "description": "Review code changes for bugs, security issues, and best practices",
+            "author": "praveencs",
+            "category": "Coding & IDEs",
+            "tags": [
+                "review",
+                "quality",
+                "security",
+                "lint",
+                "bugs"
+            ],
+            "path": "skills/code-review",
+            "tools": [
+                "cmd.run",
+                "git.diff",
+                "fs.read"
+            ],
+            "permissions": [
+                "exec",
+                "filesystem.read"
+            ]
+        },
+        {
+            "name": "api-tester",
+            "version": "1.0.0",
+            "description": "Test REST APIs with curl — GET, POST, PUT, DELETE with auth and headers",
+            "author": "praveencs",
+            "category": "Browser & Automation",
+            "tags": [
+                "api",
+                "rest",
+                "curl",
+                "testing",
+                "http"
+            ],
+            "path": "skills/api-tester",
+            "tools": [
+                "cmd.run"
+            ],
+            "permissions": [
+                "exec",
+                "network"
+            ]
+        },
+        {
+            "name": "db-query",
+            "version": "1.0.0",
+            "description": "Query databases — SQLite, PostgreSQL, MySQL via CLI tools",
+            "author": "praveencs",
+            "category": "Data & Analytics",
+            "tags": [
+                "database",
+                "sql",
+                "sqlite",
+                "postgres",
+                "mysql",
+                "query"
+            ],
+            "path": "skills/db-query",
+            "tools": [
+                "cmd.run"
+            ],
+            "permissions": [
+                "exec"
+            ]
+        },
+        {
+            "name": "log-analyzer",
+            "version": "1.0.0",
+            "description": "Analyze log files — find errors, patterns, and anomalies",
+            "author": "praveencs",
+            "category": "DevOps & Cloud",
+            "tags": [
+                "logs",
+                "analyze",
+                "errors",
+                "monitoring",
+                "debug"
+            ],
+            "path": "skills/log-analyzer",
+            "tools": [
+                "cmd.run",
+                "fs.read"
+            ],
+            "permissions": [
+                "exec",
+                "filesystem.read"
+            ]
+        },
+        {
+            "name": "backup",
+            "version": "1.0.0",
+            "description": "Backup files and directories using tar, rsync, or zip",
+            "author": "praveencs",
+            "category": "CLI Utilities",
+            "tags": [
+                "backup",
+                "archive",
+                "tar",
+                "rsync",
+                "zip"
+            ],
+            "path": "skills/backup",
+            "tools": [
+                "cmd.run"
+            ],
+            "permissions": [
+                "exec",
+                "filesystem.read"
+            ]
+        },
+        {
+            "name": "cron-scheduler",
+            "version": "1.0.0",
+            "description": "Manage cron jobs — create, list, edit, and delete scheduled tasks",
+            "author": "praveencs",
+            "category": "CLI Utilities",
+            "tags": [
+                "cron",
+                "schedule",
+                "automation",
+                "tasks"
+            ],
+            "path": "skills/cron-scheduler",
+            "tools": [
+                "cmd.run"
+            ],
+            "permissions": [
+                "exec"
+            ]
+        }
+    ]
+}

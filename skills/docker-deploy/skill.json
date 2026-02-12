@@ -1,0 +1,16 @@
+{
+    "name": "docker-deploy",
+    "version": "1.0.0",
+    "description": "Builds and deploys Docker containers from Dockerfiles",
+    "tools": [
+        "cmd.run"
+    ],
+    "permissions": {
+        "required": [
+            "exec",
+            "network"
+        ]
+    },
+    "entrypoint": "prompt.md",
+    "state": "approved"
+}

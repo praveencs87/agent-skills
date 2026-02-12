@@ -1,0 +1,1 @@
+{"name":"db-query","version":"1.0.0","description":"Query databases — SQLite, PostgreSQL, MySQL via CLI tools","tools":["cmd.run"],"permissions":{"required":["exec"]},"entrypoint":"prompt.md","state":"approved"}

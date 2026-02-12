@@ -1,0 +1,16 @@
+{
+    "name": "send-email",
+    "version": "1.0.0",
+    "description": "Sends emails using nodemailer via SMTP",
+    "tools": [
+        "cmd.run"
+    ],
+    "permissions": {
+        "required": [
+            "exec",
+            "network"
+        ]
+    },
+    "entrypoint": "prompt.md",
+    "state": "approved"
+}

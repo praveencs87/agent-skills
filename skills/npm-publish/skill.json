@@ -1,0 +1,20 @@
+{
+    "name": "npm-publish",
+    "version": "1.0.0",
+    "description": "Prepare and publish npm packages with version bumping and changelog",
+    "tools": [
+        "cmd.run",
+        "fs.read",
+        "fs.write"
+    ],
+    "permissions": {
+        "required": [
+            "exec",
+            "network",
+            "filesystem.read",
+            "filesystem.write"
+        ]
+    },
+    "entrypoint": "prompt.md",
+    "state": "approved"
+}

@@ -1,0 +1,17 @@
+{
+    "name": "project-scaffold",
+    "version": "1.0.0",
+    "description": "Scaffold new projects (Node.js, Python, React, Next.js, etc.) with best practices",
+    "tools": [
+        "cmd.run",
+        "fs.write"
+    ],
+    "permissions": {
+        "required": [
+            "exec",
+            "filesystem.write"
+        ]
+    },
+    "entrypoint": "prompt.md",
+    "state": "approved"
+}

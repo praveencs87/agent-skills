@@ -1,0 +1,19 @@
+{
+    "name": "file-organizer",
+    "version": "1.0.0",
+    "description": "Organizes files in a directory by type, date, or custom rules",
+    "tools": [
+        "cmd.run",
+        "fs.read",
+        "fs.write"
+    ],
+    "permissions": {
+        "required": [
+            "exec",
+            "filesystem.read",
+            "filesystem.write"
+        ]
+    },
+    "entrypoint": "prompt.md",
+    "state": "approved"
+}

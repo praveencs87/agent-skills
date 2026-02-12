@@ -1,0 +1,1 @@
+{"name":"cron-scheduler","version":"1.0.0","description":"Manage cron jobs — create, list, edit, and delete scheduled tasks","tools":["cmd.run"],"permissions":{"required":["exec"]},"entrypoint":"prompt.md","state":"approved"}

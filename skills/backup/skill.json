@@ -1,0 +1,1 @@
+{"name":"backup","version":"1.0.0","description":"Backup files and directories using tar, rsync, or zip","tools":["cmd.run"],"permissions":{"required":["exec","filesystem.read"]},"entrypoint":"prompt.md","state":"approved"}

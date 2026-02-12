@@ -1,0 +1,15 @@
+{
+    "name": "system-monitor",
+    "version": "1.0.0",
+    "description": "Monitor system resources — CPU, memory, disk, and running processes",
+    "tools": [
+        "cmd.run"
+    ],
+    "permissions": {
+        "required": [
+            "exec"
+        ]
+    },
+    "entrypoint": "prompt.md",
+    "state": "approved"
+}
