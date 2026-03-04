@@ -16,6 +16,27 @@
         "Browser & Automation",
         "Security"
     ],
+    "plugins": [
+        {
+            "name": "github",
+            "version": "1.0.0",
+            "description": "Manage repositories, pull requests, and issues directly on GitHub.",
+            "author": "Praveen",
+            "category": "Git & Version Control",
+            "tags": [
+                "github",
+                "git",
+                "ci",
+                "vcs"
+            ],
+            "path": "plugins/github",
+            "files": [
+                "plugin.json",
+                "tools/github.js",
+                "skills/github-manager.md"
+            ]
+        }
+    ],
     "skills": [
         {
             "name": "open-vscode",
