@@ -1,8 +1,8 @@
 <p align="center">
-  <h1 align="center">🧠 Agent Skill Hub</h1>
+  <h1 align="center">📦 Agent Hub</h1>
   <p align="center">
-    The official skill registry for <a href="https://github.com/praveencs87/agent"><b>@praveencs/agent</b></a><br/>
-    Community-built skills for AI-powered automation
+    The official Plugin and Skill registry for <a href="https://github.com/praveencs87/agent"><b>@praveencs/agent</b></a><br/>
+    Community-built plugins and skills for AI-powered automation
   </p>
   <p align="center">
     <a href="https://github.com/praveencs87/agent-skills"><img src="https://img.shields.io/badge/skills-16-blueviolet" alt="Skills"></a>
@@ -15,7 +15,14 @@
 
 ## Installation
 
-### Using Agent CLI
+### Installing Plugins
+```bash
+agent plugins install <plugin-name>
+# Example: 
+agent plugins install github
+```
+
+### Installing Skills
 ```bash
 agent skills install <skill-name>
 ```
@@ -30,6 +37,7 @@ cp -r agent-skills/skills/<skill-name> .agent/skills/
 
 ## 📋 Table of Contents
 
+- [Plugins](#plugins)
 - [Coding & IDEs](#coding--ides)
 - [Git & Version Control](#git--version-control)
 - [DevOps & Cloud](#devops--cloud)
@@ -39,6 +47,16 @@ cp -r agent-skills/skills/<skill-name> .agent/skills/
 - [CLI Utilities](#cli-utilities)
 - [Data & Analytics](#data--analytics)
 - [Browser & Automation](#browser--automation)
+
+---
+
+## Plugins
+
+Plugins are full-capability bundles that provide native Node.js tools, hooks, scripts, and skills in a single standalone package.
+
+| Plugin | Description | Capabilities |
+|--------|-------------|--------------|
+| [github](plugins/github/) | Native GitHub integration. Manage repositories, pull requests, issues, and trigger CI/CD Actions and Workflows. | `tools/github.js`, `skills/github-manager.md` |
 
 ---
 
