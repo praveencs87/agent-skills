@@ -1,0 +1,22 @@
+{
+    "name": "aws",
+    "version": "1.0.0",
+    "description": "Manage S3 buckets, Lambda functions, EC2 instances, and CloudWatch logs on AWS.",
+    "author": "Praveen",
+    "category": "DevOps & Cloud",
+    "tags": [
+        "aws",
+        "s3",
+        "lambda",
+        "ec2",
+        "cloud"
+    ],
+    "exports": {
+        "tools": [
+            "tools/aws.js"
+        ],
+        "skills": [
+            "skills/aws-manager.md"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "vercel",
+    "version": "1.0.0",
+    "description": "Deploy projects, manage domains, view deployment logs, and manage environment variables on Vercel.",
+    "author": "Praveen",
+    "category": "DevOps & Cloud",
+    "tags": [
+        "vercel",
+        "deploy",
+        "hosting",
+        "frontend",
+        "serverless"
+    ],
+    "exports": {
+        "tools": [
+            "tools/vercel.js"
+        ],
+        "skills": [
+            "skills/vercel-manager.md"
+        ]
+    }
+}

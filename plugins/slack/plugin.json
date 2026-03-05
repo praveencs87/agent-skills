@@ -1,0 +1,22 @@
+{
+    "name": "slack",
+    "version": "1.0.0",
+    "description": "Send messages, manage channels, search history, and upload files to Slack workspaces.",
+    "author": "Praveen",
+    "category": "Communication",
+    "tags": [
+        "slack",
+        "messaging",
+        "chat",
+        "notifications",
+        "team"
+    ],
+    "exports": {
+        "tools": [
+            "tools/slack.js"
+        ],
+        "skills": [
+            "skills/slack-manager.md"
+        ]
+    }
+}

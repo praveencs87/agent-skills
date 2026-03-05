@@ -1,0 +1,22 @@
+{
+    "name": "linear",
+    "version": "1.0.0",
+    "description": "Manage issues, projects, and cycles on Linear for modern project management.",
+    "author": "Praveen",
+    "category": "Productivity",
+    "tags": [
+        "linear",
+        "issues",
+        "projects",
+        "agile",
+        "tracking"
+    ],
+    "exports": {
+        "tools": [
+            "tools/linear.js"
+        ],
+        "skills": [
+            "skills/linear-manager.md"
+        ]
+    }
+}

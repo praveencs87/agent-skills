@@ -1,0 +1,22 @@
+{
+    "name": "stripe",
+    "version": "1.0.0",
+    "description": "Manage customers, subscriptions, payments, and invoices on Stripe.",
+    "author": "Praveen",
+    "category": "Payments & Business",
+    "tags": [
+        "stripe",
+        "payments",
+        "billing",
+        "subscriptions",
+        "saas"
+    ],
+    "exports": {
+        "tools": [
+            "tools/stripe.js"
+        ],
+        "skills": [
+            "skills/stripe-manager.md"
+        ]
+    }
+}

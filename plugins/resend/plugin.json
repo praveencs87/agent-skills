@@ -1,0 +1,21 @@
+{
+    "name": "resend",
+    "version": "1.0.0",
+    "description": "Send transactional and marketing emails via the Resend API.",
+    "author": "Praveen",
+    "category": "Communication",
+    "tags": [
+        "resend",
+        "email",
+        "smtp",
+        "transactional"
+    ],
+    "exports": {
+        "tools": [
+            "tools/resend.js"
+        ],
+        "skills": [
+            "skills/resend-manager.md"
+        ]
+    }
+}

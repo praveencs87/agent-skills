@@ -56,7 +56,22 @@ Plugins are full-capability bundles that provide native Node.js tools, hooks, sc
 
 | Plugin | Description | Capabilities |
 |--------|-------------|--------------|
-| [github](plugins/github/) | Native GitHub integration. Manage repositories, pull requests, issues, and trigger CI/CD Actions and Workflows. | `tools/github.js`, `skills/github-manager.md` |
+| [github](plugins/github/) | Manage repos, PRs, issues, and CI/CD workflows on GitHub. | `tools/github.js`, `skills/github-manager.md` |
+| [slack](plugins/slack/) | Send messages, manage channels, search history, and upload files to Slack. | `tools/slack.js`, `skills/slack-manager.md` |
+| [notion](plugins/notion/) | Create/manage Notion pages, databases, blocks, and search workspace. | `tools/notion.js`, `skills/notion-manager.md` |
+| [vercel](plugins/vercel/) | Deploy projects, manage domains, and configure env vars on Vercel. | `tools/vercel.js`, `skills/vercel-manager.md` |
+| [supabase](plugins/supabase/) | Query Postgres, manage auth users, and use storage on Supabase. | `tools/supabase.js`, `skills/supabase-manager.md` |
+| [stripe](plugins/stripe/) | Manage customers, subscriptions, checkout sessions, and refunds on Stripe. | `tools/stripe.js`, `skills/stripe-manager.md` |
+| [aws](plugins/aws/) | Manage S3 buckets, Lambda functions, EC2 instances, and CloudWatch logs. | `tools/aws.js`, `skills/aws-manager.md` |
+| [discord](plugins/discord/) | Send messages, manage channels and roles, use webhooks on Discord. | `tools/discord.js`, `skills/discord-manager.md` |
+| [openai](plugins/openai/) | Direct GPT chat, DALL-E image gen, Whisper transcription, TTS, and embeddings. | `tools/openai.js`, `skills/openai-manager.md` |
+| [linear](plugins/linear/) | Manage issues, projects, teams, and cycles on Linear. | `tools/linear.js`, `skills/linear-manager.md` |
+| [docker](plugins/docker/) | Build images, run containers, manage compose stacks on Docker. | `tools/docker.js`, `skills/docker-manager.md` |
+| [mongodb](plugins/mongodb/) | Query, insert, update, and aggregate data on MongoDB Atlas. | `tools/mongodb.js`, `skills/mongodb-manager.md` |
+| [firebase](plugins/firebase/) | Manage Firestore docs, Auth users, and Cloud Storage on Firebase. | `tools/firebase.js`, `skills/firebase-manager.md` |
+| [telegram](plugins/telegram/) | Send messages, photos, polls, and manage groups via Telegram bots. | `tools/telegram.js`, `skills/telegram-manager.md` |
+| [huggingface](plugins/huggingface/) | Run ML inference and search the Hugging Face model hub. | `tools/huggingface.js`, `skills/huggingface-manager.md` |
+| [resend](plugins/resend/) | Send transactional emails and manage domains via Resend. | `tools/resend.js`, `skills/resend-manager.md` |
 
 ---
 

@@ -1,0 +1,22 @@
+{
+    "name": "supabase",
+    "version": "1.0.0",
+    "description": "Query Postgres databases, manage auth users, and interact with storage buckets on Supabase.",
+    "author": "Praveen",
+    "category": "Databases & Backend",
+    "tags": [
+        "supabase",
+        "postgres",
+        "database",
+        "auth",
+        "baas"
+    ],
+    "exports": {
+        "tools": [
+            "tools/supabase.js"
+        ],
+        "skills": [
+            "skills/supabase-manager.md"
+        ]
+    }
+}

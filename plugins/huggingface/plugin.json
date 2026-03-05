@@ -1,0 +1,22 @@
+{
+    "name": "huggingface",
+    "version": "1.0.0",
+    "description": "Run inference on any Hugging Face model and search the model hub.",
+    "author": "Praveen",
+    "category": "AI & Specialized",
+    "tags": [
+        "huggingface",
+        "ml",
+        "ai",
+        "inference",
+        "models"
+    ],
+    "exports": {
+        "tools": [
+            "tools/huggingface.js"
+        ],
+        "skills": [
+            "skills/huggingface-manager.md"
+        ]
+    }
+}

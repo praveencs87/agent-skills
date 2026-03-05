@@ -35,6 +35,287 @@
                 "tools/github.js",
                 "skills/github-manager.md"
             ]
+        },
+        {
+            "name": "slack",
+            "version": "1.0.0",
+            "description": "Send messages, manage channels, search history, and upload files to Slack.",
+            "author": "Praveen",
+            "category": "Communication",
+            "tags": [
+                "slack",
+                "messaging",
+                "chat",
+                "notifications"
+            ],
+            "path": "plugins/slack",
+            "files": [
+                "plugin.json",
+                "tools/slack.js",
+                "skills/slack-manager.md"
+            ]
+        },
+        {
+            "name": "notion",
+            "version": "1.0.0",
+            "description": "Create and manage Notion pages, databases, and blocks.",
+            "author": "Praveen",
+            "category": "Productivity",
+            "tags": [
+                "notion",
+                "docs",
+                "wiki",
+                "project-management"
+            ],
+            "path": "plugins/notion",
+            "files": [
+                "plugin.json",
+                "tools/notion.js",
+                "skills/notion-manager.md"
+            ]
+        },
+        {
+            "name": "vercel",
+            "version": "1.0.0",
+            "description": "Deploy projects, manage domains, and configure environment variables on Vercel.",
+            "author": "Praveen",
+            "category": "DevOps & Cloud",
+            "tags": [
+                "vercel",
+                "deploy",
+                "hosting",
+                "serverless"
+            ],
+            "path": "plugins/vercel",
+            "files": [
+                "plugin.json",
+                "tools/vercel.js",
+                "skills/vercel-manager.md"
+            ]
+        },
+        {
+            "name": "supabase",
+            "version": "1.0.0",
+            "description": "Query Postgres databases, manage auth users, and interact with storage on Supabase.",
+            "author": "Praveen",
+            "category": "Databases & Backend",
+            "tags": [
+                "supabase",
+                "postgres",
+                "database",
+                "auth"
+            ],
+            "path": "plugins/supabase",
+            "files": [
+                "plugin.json",
+                "tools/supabase.js",
+                "skills/supabase-manager.md"
+            ]
+        },
+        {
+            "name": "stripe",
+            "version": "1.0.0",
+            "description": "Manage customers, subscriptions, payments, and invoices on Stripe.",
+            "author": "Praveen",
+            "category": "Payments & Business",
+            "tags": [
+                "stripe",
+                "payments",
+                "billing",
+                "subscriptions"
+            ],
+            "path": "plugins/stripe",
+            "files": [
+                "plugin.json",
+                "tools/stripe.js",
+                "skills/stripe-manager.md"
+            ]
+        },
+        {
+            "name": "aws",
+            "version": "1.0.0",
+            "description": "Manage S3, Lambda, EC2, and CloudWatch on AWS.",
+            "author": "Praveen",
+            "category": "DevOps & Cloud",
+            "tags": [
+                "aws",
+                "s3",
+                "lambda",
+                "ec2",
+                "cloud"
+            ],
+            "path": "plugins/aws",
+            "files": [
+                "plugin.json",
+                "tools/aws.js",
+                "skills/aws-manager.md"
+            ]
+        },
+        {
+            "name": "discord",
+            "version": "1.0.0",
+            "description": "Send messages, manage channels and roles, and interact with Discord servers.",
+            "author": "Praveen",
+            "category": "Communication",
+            "tags": [
+                "discord",
+                "messaging",
+                "chat",
+                "bot"
+            ],
+            "path": "plugins/discord",
+            "files": [
+                "plugin.json",
+                "tools/discord.js",
+                "skills/discord-manager.md"
+            ]
+        },
+        {
+            "name": "openai",
+            "version": "1.0.0",
+            "description": "Direct access to GPT chat, DALL-E image generation, Whisper, TTS, and embeddings.",
+            "author": "Praveen",
+            "category": "AI & Specialized",
+            "tags": [
+                "openai",
+                "gpt",
+                "dalle",
+                "whisper",
+                "ai"
+            ],
+            "path": "plugins/openai",
+            "files": [
+                "plugin.json",
+                "tools/openai.js",
+                "skills/openai-manager.md"
+            ]
+        },
+        {
+            "name": "linear",
+            "version": "1.0.0",
+            "description": "Manage issues, projects, teams, and cycles on Linear.",
+            "author": "Praveen",
+            "category": "Productivity",
+            "tags": [
+                "linear",
+                "issues",
+                "projects",
+                "agile"
+            ],
+            "path": "plugins/linear",
+            "files": [
+                "plugin.json",
+                "tools/linear.js",
+                "skills/linear-manager.md"
+            ]
+        },
+        {
+            "name": "docker",
+            "version": "1.0.0",
+            "description": "Build images, run containers, manage compose stacks, and view logs.",
+            "author": "Praveen",
+            "category": "DevOps & Cloud",
+            "tags": [
+                "docker",
+                "containers",
+                "compose"
+            ],
+            "path": "plugins/docker",
+            "files": [
+                "plugin.json",
+                "tools/docker.js",
+                "skills/docker-manager.md"
+            ]
+        },
+        {
+            "name": "mongodb",
+            "version": "1.0.0",
+            "description": "Query, insert, update, and aggregate data on MongoDB Atlas.",
+            "author": "Praveen",
+            "category": "Databases & Backend",
+            "tags": [
+                "mongodb",
+                "nosql",
+                "database"
+            ],
+            "path": "plugins/mongodb",
+            "files": [
+                "plugin.json",
+                "tools/mongodb.js",
+                "skills/mongodb-manager.md"
+            ]
+        },
+        {
+            "name": "firebase",
+            "version": "1.0.0",
+            "description": "Manage Firestore documents, Auth users, and Cloud Storage on Firebase.",
+            "author": "Praveen",
+            "category": "Databases & Backend",
+            "tags": [
+                "firebase",
+                "firestore",
+                "google"
+            ],
+            "path": "plugins/firebase",
+            "files": [
+                "plugin.json",
+                "tools/firebase.js",
+                "skills/firebase-manager.md"
+            ]
+        },
+        {
+            "name": "telegram",
+            "version": "1.0.0",
+            "description": "Send messages, manage groups, and interact with Telegram bots.",
+            "author": "Praveen",
+            "category": "Communication",
+            "tags": [
+                "telegram",
+                "messaging",
+                "bot"
+            ],
+            "path": "plugins/telegram",
+            "files": [
+                "plugin.json",
+                "tools/telegram.js",
+                "skills/telegram-manager.md"
+            ]
+        },
+        {
+            "name": "huggingface",
+            "version": "1.0.0",
+            "description": "Run inference on any Hugging Face model and search the model hub.",
+            "author": "Praveen",
+            "category": "AI & Specialized",
+            "tags": [
+                "huggingface",
+                "ml",
+                "inference"
+            ],
+            "path": "plugins/huggingface",
+            "files": [
+                "plugin.json",
+                "tools/huggingface.js",
+                "skills/huggingface-manager.md"
+            ]
+        },
+        {
+            "name": "resend",
+            "version": "1.0.0",
+            "description": "Send transactional and marketing emails via the Resend API.",
+            "author": "Praveen",
+            "category": "Communication",
+            "tags": [
+                "resend",
+                "email",
+                "transactional"
+            ],
+            "path": "plugins/resend",
+            "files": [
+                "plugin.json",
+                "tools/resend.js",
+                "skills/resend-manager.md"
+            ]
         }
     ],
     "skills": [

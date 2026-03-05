@@ -1,0 +1,21 @@
+{
+    "name": "docker",
+    "version": "1.0.0",
+    "description": "Build images, run containers, manage compose stacks, and view logs with Docker.",
+    "author": "Praveen",
+    "category": "DevOps & Cloud",
+    "tags": [
+        "docker",
+        "containers",
+        "devops",
+        "compose"
+    ],
+    "exports": {
+        "tools": [
+            "tools/docker.js"
+        ],
+        "skills": [
+            "skills/docker-manager.md"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "github",
+    "version": "1.0.0",
+    "description": "Advanced GitHub automation: manage repositories, pull requests, advanced search, and CI/CD workflows.",
+    "author": "Praveen",
+    "category": "Git & Version Control",
+    "tags": [
+        "github",
+        "git",
+        "ci",
+        "vcs",
+        "actions",
+        "workflows"
+    ],
+    "exports": {
+        "tools": [
+            "tools/github.js"
+        ],
+        "skills": [
+            "skills/github-manager.md"
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "mongodb",
+    "version": "1.0.0",
+    "description": "Query, insert, update, and aggregate data on MongoDB Atlas or local instances.",
+    "author": "Praveen",
+    "category": "Databases & Backend",
+    "tags": [
+        "mongodb",
+        "nosql",
+        "database",
+        "atlas"
+    ],
+    "exports": {
+        "tools": [
+            "tools/mongodb.js"
+        ],
+        "skills": [
+            "skills/mongodb-manager.md"
+        ]
+    }
+}

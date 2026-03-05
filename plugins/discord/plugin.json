@@ -1,0 +1,22 @@
+{
+    "name": "discord",
+    "version": "1.0.0",
+    "description": "Send messages, manage channels and roles, and interact with Discord servers via webhooks and bot API.",
+    "author": "Praveen",
+    "category": "Communication",
+    "tags": [
+        "discord",
+        "messaging",
+        "chat",
+        "bot",
+        "community"
+    ],
+    "exports": {
+        "tools": [
+            "tools/discord.js"
+        ],
+        "skills": [
+            "skills/discord-manager.md"
+        ]
+    }
+}

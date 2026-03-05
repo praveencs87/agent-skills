@@ -1,0 +1,22 @@
+{
+    "name": "firebase",
+    "version": "1.0.0",
+    "description": "Manage Firestore documents, Auth users, and Cloud Storage on Firebase.",
+    "author": "Praveen",
+    "category": "Databases & Backend",
+    "tags": [
+        "firebase",
+        "firestore",
+        "google",
+        "baas",
+        "auth"
+    ],
+    "exports": {
+        "tools": [
+            "tools/firebase.js"
+        ],
+        "skills": [
+            "skills/firebase-manager.md"
+        ]
+    }
+}

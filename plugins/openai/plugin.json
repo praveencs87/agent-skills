@@ -1,0 +1,23 @@
+{
+    "name": "openai",
+    "version": "1.0.0",
+    "description": "Direct access to OpenAI APIs: GPT chat, DALL-E image generation, Whisper transcription, and TTS.",
+    "author": "Praveen",
+    "category": "AI & Specialized",
+    "tags": [
+        "openai",
+        "gpt",
+        "dalle",
+        "whisper",
+        "tts",
+        "ai"
+    ],
+    "exports": {
+        "tools": [
+            "tools/openai.js"
+        ],
+        "skills": [
+            "skills/openai-manager.md"
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "telegram",
+    "version": "1.0.0",
+    "description": "Send messages, manage groups, and interact with Telegram bots via the Bot API.",
+    "author": "Praveen",
+    "category": "Communication",
+    "tags": [
+        "telegram",
+        "messaging",
+        "bot",
+        "chat"
+    ],
+    "exports": {
+        "tools": [
+            "tools/telegram.js"
+        ],
+        "skills": [
+            "skills/telegram-manager.md"
+        ]
+    }
+}

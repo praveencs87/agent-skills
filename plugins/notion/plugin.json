@@ -1,0 +1,22 @@
+{
+    "name": "notion",
+    "version": "1.0.0",
+    "description": "Create and manage Notion pages, databases, and blocks for project documentation and knowledge management.",
+    "author": "Praveen",
+    "category": "Productivity",
+    "tags": [
+        "notion",
+        "docs",
+        "wiki",
+        "project-management",
+        "knowledge-base"
+    ],
+    "exports": {
+        "tools": [
+            "tools/notion.js"
+        ],
+        "skills": [
+            "skills/notion-manager.md"
+        ]
+    }
+}
